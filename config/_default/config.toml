@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://crackeer.github.io"
+baseurl = "https://crackeer.github.io/bblog/"
 languageCode = "zh-cn"
 paginate = 10
 title = "记录，是变好的开始"
