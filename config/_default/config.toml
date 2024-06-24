@@ -2,7 +2,7 @@
 baseurl = "https://crackeer.github.io/bblog/"
 languageCode = "zh-cn"
 paginate = 10
-title = "记录，是变好的开始"
+title = "记录生活"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
