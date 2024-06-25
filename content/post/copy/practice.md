@@ -1,6 +1,7 @@
 ---
 title: 练习变得更好
-date: 2024-06-04 00:00:00+0000
+date: 2024-06-04
+slug: practice
 categories:
     - 经验
 ---

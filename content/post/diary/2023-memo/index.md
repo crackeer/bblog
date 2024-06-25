@@ -5,7 +5,6 @@ slug: 2023-memory
 date: 2024-01-12 00:00:00+0000
 categories:
     - 日记
-weight: 100
 
 links:
   - title: GitHub

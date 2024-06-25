@@ -1,10 +1,10 @@
 ---
 title: 来自乔布斯的话
 description: 乔布斯的
-date: 2024-06-06 00:00:00+0000
+date: 2024-06-07
+slug: from-steven-jobs
 categories:
     - 经验
-weight: 100
 ---
 
 
