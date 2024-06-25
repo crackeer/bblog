@@ -5,8 +5,6 @@ slug: "about"
 menu:
     main:
         weight: 3
-        params: 
-            icon: archives
 ---
 
 # 我是谁

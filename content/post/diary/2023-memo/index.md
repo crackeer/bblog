@@ -1,8 +1,8 @@
 ---
-title: 2023
+title: 2023回顾
 description: 2023年回顾
-slug: 527635
-date: 2024-03-06 00:00:00+0000
+slug: 2023-memory
+date: 2024-01-12 00:00:00+0000
 categories:
     - 日记
 weight: 100
