@@ -22,7 +22,7 @@ local = true
 src = "img/avatar.jpg"
 
 [article]
-headingAnchor = true
+headingAnchor = false
 math = false
 readingTime = true
 
@@ -36,7 +36,7 @@ default = "Licensed under CC BY-NC-SA 4.0"
 type = "archives"
 
 [widgets.homepage.params]
-limit = 5
+limit = 10
 
 [[widgets.homepage]]
 type = "categories"
@@ -63,7 +63,7 @@ local = false
 src = ""
 
 [colorScheme]
-toggle = true
+toggle = false
 default = "auto"
 
 [imageProcessing.cover]

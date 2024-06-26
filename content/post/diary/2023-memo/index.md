@@ -4,7 +4,7 @@ description: 2023年回顾
 slug: 2023-memory
 date: 2024-01-12 00:00:00+0000
 categories:
-    - 日记
+    - 生活
 
 links:
   - title: GitHub
