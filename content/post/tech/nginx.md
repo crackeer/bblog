@@ -58,3 +58,20 @@ server {
 ```
 
 # 四、设置登录密码验证
+
+```nginx
+
+server {
+    listen       8080;
+    server_name  localhost;
+
+    auth_basic  "Input Password:登录认证" ;
+    auth_basic_user_file "/usr/local/pass";
+}
+```
+
+## 4.1 生成用户密码文件
+
+```sh
+htpasswd -c -d /usr/local/pass username
+```
