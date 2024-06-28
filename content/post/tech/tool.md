@@ -7,4 +7,4 @@ categories:
 ---
 
 # 工具
-![](images/2024-06-28-18-11-12.png)
+![tool](images/2024-06-28-18-11-12.png)
