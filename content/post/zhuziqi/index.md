@@ -63,7 +63,7 @@ categories:
 # 三、其他
 
 ## 毕业典礼，家长神级发言
-{{< video "https://f.video.weibocdn.com/o0/8f2WQCQClx08fAV7L2qk010412022i1R0E010.mp4?label=mp4_720p&template=1280x720.25.0&media_id=5044473936412708&tp=8x8A3El:YTkl0eM8&us=0&ori=1&bf=2&ot=h&ps=3lckmu&uid=2xPBp3&ab=,8012-g2,8013-g0,3601-g29,3601-g32,3601-g29&Expires=1719556763&ssig=SJW9oWVAp1&KID=unistore,video" >}}
+{{< bilibili "BV1db421e7cR" >}}
 
 From: [weibo](https://weibo.com/tv/show/1034:5044473936412708?from=old_pc_videoshow)
 
