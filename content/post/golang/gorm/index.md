@@ -10,9 +10,9 @@ tags:
 
 # 一、介绍
 
-- github：https://gorm.io/
-- 官网：https://gorm.io/
-- 纯go版本的sqlite驱动：https://github.com/glebarez/sqlite
+- github：[https://github.com/go-gorm/gorm](https://github.com/go-gorm/gorm)
+- 官网：[https://gorm.io/](https://gorm.io/)
+- 纯go版本的sqlite驱动：[https://github.com/glebarez/sqlite](https://github.com/glebarez/sqlite)
 
 ## 工具
 - 生成struct的工具：https://gorm.io/gen/

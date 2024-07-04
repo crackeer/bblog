@@ -6,6 +6,12 @@ categories:
   - IT
 ---
 
-# 工具
+# 网站
+
+- [让工具回归工具](https://www.30aitool.com/)
+
+
+# 开发工具
 
 ![aa](images/tool.png)
+
