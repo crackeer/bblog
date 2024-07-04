@@ -10,4 +10,4 @@ categories:
 
 ## 一些远程工作
 
-- https://v2ex.com/go/remote?p=1
+- [v2ex的远程工作频道](https://v2ex.com/go/remote?p=1)
