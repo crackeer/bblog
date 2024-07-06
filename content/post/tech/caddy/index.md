@@ -2,7 +2,7 @@
 title: caddy使用
 description: caddy常见使用方式, 反向代理, 静态资源
 slug: caddy
-date: 2024-07=05
+date: 2024-07-05
 categories:
   - IT
 tags:
@@ -22,7 +22,7 @@ links:
 
 ## 1. 
 
-```json
+```json fold="true"
 {
     "admin": {
         "disabled": false,
@@ -138,3 +138,5 @@ links:
 }
 
 ```
+
+## 2. 是谁
