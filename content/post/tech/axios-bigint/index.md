@@ -11,7 +11,8 @@ tags:
 
 # 1. 引入json-bigint库文件
 
-- [json-bigint](https://www.npmjs.com/package/json-bigint)
+- npm包引入：[json-bigint](https://www.npmjs.com/package/json-bigint)
+- 浏览器引入：[https://www.jsdelivr.com/package/npm/json-bigint-browser](https://www.jsdelivr.com/package/npm/json-bigint-browser)
 
 # 2. 增加默认转换器
 

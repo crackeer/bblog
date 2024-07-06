@@ -14,24 +14,16 @@ links:
     website: https://caddyserver.com/docs/
 ---
 
-# 一、caddy官方网站
+# 一、caddy 官方网站
 
 - [https://caddyserver.com/docs/](https://caddyserver.com/docs/)
 
 # 二、使用方式
 
-## 1. 
+## 1. 反向代理
 
-```json fold="true"
+```json
 {
-    "admin": {
-        "disabled": false,
-        "listen": "0.0.0.0:2019",
-        "enforce_origin": false,
-        "origins": [
-            ""
-        ]
-    },
     "apps": {
         "http": {
             "servers": {
@@ -49,7 +41,14 @@ links:
                                     "host": [
                                         "simple.com"
                                     ]
+                                }，
+                                {
+                                    "path_regexp": {
+                                        "name": "iss",
+                                        "pattern": "^/iss-vr-index"
+                                    }
                                 }
+
                             ],
                             "handle": [
                                 {
@@ -61,35 +60,32 @@ links:
                                     ]
                                 }
                             ]
-                        },
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
+
+```
+
+## 2. 静态资源
+
+```json
+{
+    "apps": {
+        "http": {
+            "servers": {
+                "static": {
+                    "idle_timeout": 30000000000,
+                    "listen": [
+                        "0.0.0.0:80"
+                    ],
+                    "max_header_bytes": 10240000,
+                    "read_header_timeout": 10000000000,
+                    "routes": [
                         {
-                            "match": [
-                                {
-                                    "path_regexp": {
-                                        "name": "iss",
-                                        "pattern": "^/iss-vr-index"
-                                    }
-                                }
-                            ],
-                            "handle": [
-                                {
-                                    "handler": "reverse_proxy",
-                                    "upstreams": [
-                                        {
-                                            "dial": "10.26.52.27:11111"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "match": [
-                                {
-                                    "host": [
-                                        "www.simple.com"
-                                    ]
-                                }
-                            ],
                             "handle": [
                                 {
                                     "handler": "file_server",
@@ -100,7 +96,30 @@ links:
                                 }
                             ],
                             "terminal": true
-                        },
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
+```
+
+## 2. 正向代理
+
+```json
+{
+    "apps": {
+        "http": {
+            "servers": {
+                "static": {
+                    "idle_timeout": 30000000000,
+                    "listen": [
+                        "0.0.0.0:80"
+                    ],
+                    "max_header_bytes": 10240000,
+                    "read_header_timeout": 10000000000,
+                    "routes": [
                         {
                             "match": [
                                 {
@@ -130,13 +149,11 @@ links:
                                 }
                             ]
                         }
+
                     ]
                 }
             }
         }
     }
 }
-
 ```
-
-## 2. 是谁
