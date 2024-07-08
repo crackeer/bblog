@@ -8,8 +8,13 @@ categories:
 tags:
   - 网站
   - 哔哩哔哩
-
+weight: 9999
 ---
+
+# 科技生活范儿
+
+- [数字尾巴](https://www.dgtle.com/) 
+- [少数派](https://sspai.com/)
 
 # 个人网站
 
