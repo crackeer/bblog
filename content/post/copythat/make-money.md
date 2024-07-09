@@ -3,7 +3,7 @@ title: 挣钱是快乐的事儿
 date: 2024-06-06
 slug: make-money
 categories:
-    - 经验
+  - 经验
 ---
 
 
