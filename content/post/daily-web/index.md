@@ -28,3 +28,7 @@ weight: 9999
 
 - [小Lin说](https://space.bilibili.com/520819684)
 - [影视飓风](https://space.bilibili.com/946974)
+
+# 社区
+
+- [v2ex](https://v2ex.com/)
