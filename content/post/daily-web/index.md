@@ -11,7 +11,7 @@ tags:
 weight: 9999
 ---
 
-# 科技生活范儿
+# 科技范儿
 
 - [数字尾巴](https://www.dgtle.com/) 
 - [少数派](https://sspai.com/)
@@ -32,3 +32,8 @@ weight: 9999
 # 社区
 
 - [v2ex](https://v2ex.com/)
+- [过早客](https://www.guozaoke.com/)
+
+# 学习&英语
+
+- [vocabulary词汇](https://www.vocabulary.com/lists/)
