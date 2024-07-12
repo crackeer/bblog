@@ -23,6 +23,7 @@ weight: 9999
 - [TW93,有趣](https://tw93.fun/)
 - [一个设计者的个人站点](https://paulstamatiou.com/)
 - [missuo](https://missuo.me/)
+- [技术博客 - 极客兔兔](https://geektutu.com/)
 
 # Up主
 
@@ -33,7 +34,9 @@ weight: 9999
 
 - [v2ex](https://v2ex.com/)
 - [过早客](https://www.guozaoke.com/)
+- [迪卡](https://dizkaz.com/)
 
 # 学习&英语
 
 - [vocabulary词汇](https://www.vocabulary.com/lists/)
+
