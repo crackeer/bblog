@@ -26,3 +26,10 @@ tar解压时候，有时候会出出现以下报错
 ```sh
 tar -xvf abc.tar --warning=no-unknown-keyword
 ```
+
+# 3. tar打包指定文件夹
+
+```shell
+tar -cvf /tmp/web-static.gz -C /the/target/dir/ .
+```
+
