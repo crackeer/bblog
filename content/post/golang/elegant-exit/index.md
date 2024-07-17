@@ -32,11 +32,11 @@ func main() {
 
     // 监听退出信号
     signalChan := make(chan os.Signal, 1)
-	signal.Notify(signalChan, syscall.SIGTERM, syscall.SIGINT, syscall.SIGQUIT, os.Interrupt)
-	select {
-	case <-signalChan:
-		container.LogError(nil, "receive kill signal")
-	}
+    signal.Notify(signalChan, syscall.SIGTERM, syscall.SIGINT, syscall.SIGQUIT, os.Interrupt)
+    select {
+    case <-signalChan:
+        container.LogError(nil, "receive kill signal")
+    }
 
     // 发送取消信号
     cancel()
@@ -52,15 +52,15 @@ func runEndlessTask(ctx context.Context, wg *sync.WaitGroup) {
     globalWg.Add(1)
 // endless loop
 loop:
-	for {
-		select {
-		case <-ctx.Done():
-			log.Info("runTask1 exit")
-			break loop
-		default:
-			// handle something
-		}
-	}
+    for {
+        select {
+        case <-ctx.Done():
+            log.Info("runTask1 exit")
+            break loop
+        default:
+          // handle something
+        }
+    }
     globalWg.Done()
 }
 ```
