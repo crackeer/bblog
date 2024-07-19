@@ -10,11 +10,22 @@ tags:
   - 哔哩哔哩
 weight: 9999
 ---
+# 技术
+
+- [Hello Github](https://hellogithub.com/periodical)
 
 # 科技范儿
 
 - [数字尾巴](https://www.dgtle.com/) 
 - [少数派](https://sspai.com/)
+
+# 工具
+
+- [让工具回归工具](https://www.30aitool.com/)
+- [流光卡片](https://fireflycard.shushiai.com/)
+- [文件转换](https://www.aconvert.com/cn/)
+- [图片压缩](https://caesium.app/)
+- [代码转图片](https://carbon.now.sh/)
 
 # 个人网站
 
@@ -24,6 +35,7 @@ weight: 9999
 - [一个设计者的个人站点](https://paulstamatiou.com/)
 - [missuo](https://missuo.me/)
 - [技术博客 - 极客兔兔](https://geektutu.com/)
+- [信息差——独立开发者出海周刊](https://gapis.money/)
 
 # Up主
 
@@ -35,8 +47,15 @@ weight: 9999
 - [v2ex](https://v2ex.com/)
 - [过早客](https://www.guozaoke.com/)
 - [迪卡](https://dizkaz.com/)
+- [值得一读的技术博客](https://daily-blog.chlinlearn.top/blogs/1)
 
-# 学习&英语
+# 学习
 
 - [vocabulary词汇](https://www.vocabulary.com/lists/)
+- [一个免费的纪录片网站](https://ihavenotv.com/)
 
+# 文章
+
+- [技术极简主义：一切皆用Postgres](https://www.modb.pro/db/1759393455994392576)
+- [how-to-set-up-web-based-ssh](https://linuxiac.com/how-to-set-up-web-based-ssh/)
+- [Sidewalk+Garden](https://zachklein.com/Sidewalk+Garden)
