@@ -10,14 +10,10 @@ tags:
   - 哔哩哔哩
 weight: 9999
 ---
+
 # 技术
 
-- [Hello Github](https://hellogithub.com/periodical)
-
-# 科技范儿
-
-- [数字尾巴](https://www.dgtle.com/) 
-- [少数派](https://sspai.com/)
+- [HelloGithub，每月会有一期编程语言的优秀项目](https://hellogithub.com/periodical)
 
 # 工具
 
@@ -44,11 +40,13 @@ weight: 9999
 
 # 社区
 
+- [数字尾巴](https://www.dgtle.com/)
+- [少数派](https://sspai.com/)
 - [v2ex](https://v2ex.com/)
 - [过早客](https://www.guozaoke.com/)
 - [迪卡](https://dizkaz.com/)
 - [值得一读的技术博客](https://daily-blog.chlinlearn.top/blogs/1)
-
+- [下载无损Music](https://tools.liumingye.cn/music/#/)
 # 学习
 
 - [vocabulary词汇](https://www.vocabulary.com/lists/)
@@ -59,3 +57,4 @@ weight: 9999
 - [技术极简主义：一切皆用Postgres](https://www.modb.pro/db/1759393455994392576)
 - [how-to-set-up-web-based-ssh](https://linuxiac.com/how-to-set-up-web-based-ssh/)
 - [Sidewalk+Garden](https://zachklein.com/Sidewalk+Garden)
+- [我从来没有目标](https://signalvnoise.com/svn3/ive-never-had-a-goal/)
