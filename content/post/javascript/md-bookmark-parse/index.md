@@ -33,7 +33,7 @@ tags:
 然后，我就有了这样的代码，我觉得十分优雅，所以就记录下来了
 ```js
 var tagRegex = /^#([\S\s]+)/;
-var hrefRegex = /^\-\s\[(\S+)\]\((\S+)\)$/;
+var hrefRegex = /^\-\s\[([\S\w\s\W]*)\]\((\S+)\)/;
 function parseBookmark(text) {
     let data = text.split('\n')
     let current_tag = '未知'
