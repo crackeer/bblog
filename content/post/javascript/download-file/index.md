@@ -1,7 +1,7 @@
 ---
 title: 使用NodeJS下载文件
 date: 2024-07-26
-slug: md-bookmark-parse
+slug: axios-download-file
 categories:
   - IT
 tags:
