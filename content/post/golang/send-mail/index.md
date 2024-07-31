@@ -11,13 +11,12 @@ tags:
 话不多说，上代码，使用了[github.com/xhit/go-simple-mail/v2](http://github.com/xhit/go-simple-mail)
 
 1. 引入lib
-- `import "github.com/xhit/go-simple-mail/v2"`
+- `import mail "github.com/xhit/go-simple-mail/v2"`
 - `import "crypto/tls"`
 
 2. 正式代码
 
 ```go
-
 server := mail.NewSMTPClient()
 
 // SMTP Server
