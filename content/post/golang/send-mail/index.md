@@ -8,7 +8,7 @@ tags:
   - mail
 ---
 
-话不多说，上代码，使用了[github.com/xhit/go-simple-mail/v2](github.com/xhit/go-simple-mail)
+话不多说，上代码，使用了[github.com/xhit/go-simple-mail/v2](http://github.com/xhit/go-simple-mail)
 
 1. 引入lib
 - `import "github.com/xhit/go-simple-mail/v2"`
