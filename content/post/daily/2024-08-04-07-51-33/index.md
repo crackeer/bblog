@@ -14,19 +14,17 @@ tags:
 - 视频播放器：1K播放器
 - 音乐播放器：Ever Play
 
-![ze1hx0.PNG](https://files.catbox.moe/ze1hx0.PNG)
+![首屏](https://ossk.cc/file/3e2522d24ddcbccab1056.jpg)
 
 # 屏幕截图
 
-- 锁屏
+- 音乐播放器，Mp3音乐播放下载： [https://tools.liumingye.cn/music/](https://tools.liumingye.cn/music)
 
-![f7768u.PNG](https://files.catbox.moe/kiz42h.PNG) 
 
-- 音乐播放器 
+![IMG_0263.jpg](https://ossk.cc/file/fc48400163735ff0b8f07.jpg)
+![IMG_0261.jpg](https://ossk.cc/file/18cb6389c1a215027e524.jpg)
 
-![fzblyg.PNG](https://files.catbox.moe/fzblyg.PNG width=600)
-![fjsv2c.PNG](https://files.catbox.moe/fjsv2c.PNG) 
 
 - 视频播放器
 
-![btlq8w.PNG](https://files.catbox.moe/btlq8w.PNG) ![vxjvvy.PNG](https://files.catbox.moe/vxjvvy.PNG) 
+![IMG_0260.jpg](https://ossk.cc/file/a95b396aaa81ecd94c19b.jpg)
