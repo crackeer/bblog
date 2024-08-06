@@ -10,4 +10,4 @@ YAML="---\ntitle: YourTitle\ndate: ${DATE}\nslug: ${SLUG}\ncategories:\n  - ${CA
 echo -ne $YAML > ./content/post/$CATEGORY/$SLUG/index.md
 
 echo "File created: ./content/post/$CATEGORY/$SLUG/index.md"
-code ./content/post
+code ./content/post ./content/post/$CATEGORY/$SLUG/index.md
