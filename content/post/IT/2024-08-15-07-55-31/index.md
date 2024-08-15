@@ -74,7 +74,7 @@ window.$docsify = {
 }
 ```
 
-## 三、样式调整
+# 三、样式调整
 
 - 主体背景色
 - Table border
