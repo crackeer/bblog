@@ -3,9 +3,8 @@ title: Golang一些基础知识
 date: 2024-08-16
 slug: 2024-08-16-08-08-11
 categories:
- - golang
+  - golang
 ---
-
 
 ## 有趣的知识点
 * https://blog.csdn.net/qq_43716830/article/details/124405506
