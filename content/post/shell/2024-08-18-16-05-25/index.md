@@ -7,15 +7,15 @@ categories:
 ---
 
 
-## jq解析json
+# jq解析json
 
 - `jq -r .data.message`，可以去掉message外层的双引号
 
-## curl静默模式
+# curl静默模式
 
 - `curl -s` 静默模式，可不展示请求进度
 
-## for循环执行
+# for循环执行
 
 ```sh
 for i in aaa bbb ccc; do
@@ -23,7 +23,7 @@ for i in aaa bbb ccc; do
 done
 ```
 
-## zip分包 / 合并
+# zip分包 / 合并
 
 ```sh
 # 分
@@ -33,7 +33,7 @@ zip -s 0 myfolder.zip --out unsplit.zip
 ```
 
 
-## sed批量替换
+# sed批量替换
 
 ```sh
 sed -i "s/原内容/新内容/g" `grep 原内容 -rl 所在目录`
@@ -41,14 +41,14 @@ sed -i "s/原内容/新内容/g" `grep 原内容 -rl 所在目录`
 
 **注：千万注意这个符号【`】，是【最左上角】那个符号不是单引号**
 
-## 批量修改文件扩展名
+# 批量修改文件扩展名
 
 ```sh
 #!/bin/bash
 list=$(find . -name '*.html')
 for item in $list
     do
-        if [ "${item##*/}" == "index.html" ];then
+        if [ "${item#*/}" == "index.html" ];then
             echo $item;
         else
             mv $item ${item%.*}
@@ -57,11 +57,11 @@ for item in $list
     done
 ```
 
-## Git合并分支
+# Git合并分支
 
 [merge-branch](./code/shell.sh ':include :type=code :fragment=merge-branch')
 
-## 添加system service
+# 添加system service
 
 ```sh
 [Unit]
@@ -80,7 +80,7 @@ PrivateTmp=true
 WantedBy=multi-user.target
 ```
 
-## shell中字符串分割
+# shell中字符串分割
 
 > 参照：https://blog.csdn.net/Baiyi_destroyer/article/details/126530139
 - 1. ${parameter//pattern/string},用string来替换parameter变量中所有匹配的pattern
@@ -128,7 +128,7 @@ done
 
 ```
 
-## 字符串切割成数组
+# 字符串切割成数组
 
 > https://www.cnblogs.com/linux985/p/14866985.html
 
@@ -143,13 +143,13 @@ do
 done
 ```
 
-## ssh查看连接过程
+# ssh查看连接过程
 
 ```sh
 ssh -vT git@github.com
 ```
 
-## 获取脚本所在路径
+# 获取脚本所在路径
 ```sh
 ROOT=$(dirname $(readlink -f "$0"))
 ```
