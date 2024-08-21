@@ -13,10 +13,17 @@ mkdir -p ./content/post/$CATEGORY/$SLUG
 YAML=$(cat content.template)
 cp content.template ./content/post/$CATEGORY/$SLUG/index.md
 
-sed -i 's/SLUG/'${SLUG}'/g' ./content/post/$CATEGORY/$SLUG/index.md
-sed -i 's/DATE/'${DATE}'/g' ./content/post/$CATEGORY/$SLUG/index.md
-sed -i 's/CATEGORY/'${CATEGORY}'/g' ./content/post/$CATEGORY/$SLUG/index.md
-sed -i 's/TITLE/'${TITLE}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+if [ "$(uname)" = "Darwin" ]; then
+    sed -i '' 's/SLUG/'${SLUG}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+    sed -i '' 's/DATE/'${DATE}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+    sed -i '' 's/CATEGORY/'${CATEGORY}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+    sed -i '' 's/TITLE/'${TITLE}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+else
+    sed -i 's/SLUG/'${SLUG}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+    sed -i 's/DATE/'${DATE}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+    sed -i 's/CATEGORY/'${CATEGORY}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+    sed -i 's/TITLE/'${TITLE}'/g' ./content/post/$CATEGORY/$SLUG/index.md
+fi
 
 
 echo "File created: ./content/post/$CATEGORY/$SLUG/index.md"
