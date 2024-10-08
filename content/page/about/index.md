@@ -4,7 +4,7 @@ date: 2024-03-06
 slug: "about"
 menu:
     main:
-        weight: 3
+        weight: 4
 ---
 
 ## 《身份焦虑》
