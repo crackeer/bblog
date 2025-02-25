@@ -1,12 +1,12 @@
 #!/bin/bash
 
-if [ $# -lt 2 ]; then
-    echo "Usage: $0 <category> <title>"
+if [ $# -lt 3 ]; then
+    echo "Usage: $0 <category> <slug> <title>"
     exit
 fi
 CATEGORY=$1
-TITLE=$2
-SLUG=$(date +%Y-%m-%d-%H-%M-%S)
+SLUG=$2
+TITLE=$3
 DATE=$(date +%Y-%m-%d)
 mkdir -p ./content/post/$CATEGORY/$SLUG
 
