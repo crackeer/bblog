@@ -27,4 +27,4 @@ fi
 
 
 echo "File created: ./content/post/$CATEGORY/$SLUG/index.md"
-code . ./content/post/$CATEGORY/$SLUG/index.md
+code -r ./content/post/$CATEGORY/$SLUG/index.md
