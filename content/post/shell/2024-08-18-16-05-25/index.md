@@ -25,11 +25,13 @@ done
 
 # zip分包 / 合并
 
+> Refer:https://zhuanlan.zhihu.com/p/361804084
+
 ```sh
-# 分
-zip -s 100m myfolder.zip myfolder
+# 分包
+zip -s 100m myfolder.zip somefile1 somefile2 somefile3
 # 合
-zip -s 0 myfolder.zip --out unsplit.zip
+zip myfolder.zip myfolder.z01 myfolder.z02 --out all.zip
 ```
 
 
@@ -153,5 +155,3 @@ ssh -vT git@github.com
 ```sh
 ROOT=$(dirname $(readlink -f "$0"))
 ```
-
-
