@@ -1,7 +1,7 @@
 ---
 title: 一些shell使用
 date: 2024-08-18
-slug: 2024-08-18-16-05-25
+slug: shell-useage
 categories:
   - shell
 ---
@@ -31,7 +31,9 @@ done
 # 分包
 zip -s 100m myfolder.zip somefile1 somefile2 somefile3
 # 合
-zip myfolder.zip myfolder.z01 myfolder.z02 --out all.zip
+cat myfolder.zip.* > all.zip
+# 解压
+unzip myfolder.zip
 ```
 
 
